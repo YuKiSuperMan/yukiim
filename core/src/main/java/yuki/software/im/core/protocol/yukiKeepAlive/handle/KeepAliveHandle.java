@@ -19,17 +19,6 @@ import yuki.software.im.core.protocol.selector.param.Response;
 public class KeepAliveHandle extends ChannelInboundHandlerAdapter {
 
     @Override
-    public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        Request request =  JSONObject.parseObject(msg.toString(),Request.class);
-        Response response = new Response();
-        response.setKey(request.getKey());
-        response.setResponseObj("Hello,This is Ok!!!");
-        System.out.println("msg");
-        ctx.channel().writeAndFlush(JSONObject.toJSONString(response));
-        ctx.channel().writeAndFlush("\r\n");
-    }
-
-    @Override
     public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
         //说明是定时器任务(该任务以后会做优化 暂时引用源码)
         if(evt instanceof IdleStateEvent){
@@ -43,7 +32,7 @@ public class KeepAliveHandle extends ChannelInboundHandlerAdapter {
                 System.out.println("读空闲");
             }
             if(event.state().equals(IdleState.WRITER_IDLE)){
-                System.out.println("写空闲触发");
+                System.out.println("写空闲");
                 ctx.channel().close();
             }
         }

@@ -2,16 +2,13 @@ package yuki.software.im.core.main.init;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
-import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
-import org.yuki.software.im.core.server.conf.ServerHandleRegister;
 
 /**
  * @programN: yuki_im
@@ -23,7 +20,7 @@ import org.yuki.software.im.core.server.conf.ServerHandleRegister;
 @Component
 public class ServerInital implements ApplicationListener<ContextRefreshedEvent> {
 
-    private int port = 8765;
+    private int port = 8065;
 
     public void run(){
         EventLoopGroup bossGroup=new NioEventLoopGroup(1);
@@ -33,11 +30,7 @@ public class ServerInital implements ApplicationListener<ContextRefreshedEvent> 
             b.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
                     .option(ChannelOption.SO_BACKLOG, 128)
-                    .childHandler(new ChannelInitializer<SocketChannel>() {
-                        public void initChannel(SocketChannel socketChannel){
-                            ServerHandleRegister.register(socketChannel);
-                        }
-                    });
+                    .childHandler(new YuKiServerInitializer());
             ChannelFuture f=b.bind(port).sync();
             f.channel().closeFuture().sync();
         } catch (InterruptedException e) {
@@ -50,6 +43,7 @@ public class ServerInital implements ApplicationListener<ContextRefreshedEvent> 
 
 
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
+        System.out.println("start");
         this.run();
     }
 }

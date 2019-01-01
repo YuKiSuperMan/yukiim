@@ -26,7 +26,7 @@
         <log4j.version>1.2.17</log4j.version>
         <!--netty支持版本-->
         <netty.version>4.1.6.Final</netty.version>
-
+        <druid-version>1.0.28</druid-version>
     </properties>
 
     <dependencyManagement>
@@ -139,6 +139,11 @@
                 <version>${log4j.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid-version}</version>
+            </dependency>
 
             <!-- 格式化对象，方便输出日志 -->
             <dependency>
