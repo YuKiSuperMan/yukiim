@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fb50715-0c2e-4105-99ff-1ccac438e538" name="Default Changelist" comment="" />
+    <list default="true" id="6fb50715-0c2e-4105-99ff-1ccac438e538" name="Default Changelist" comment="创建项目">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/conf/ServerHandleRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/main/init/ServerInital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/main/mvc/springStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/msg/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/constant/MessageConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/selector/handle/ProtocolSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/selector/param/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/selector/param/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/yukiKeepAlive/handle/KeepAliveHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/yukiKeepAlive/memory/handle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/tcp/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/test/handle/SimpleServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/test/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/test/server/TestServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/websocket/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
@@ -37,26 +57,34 @@
     <session id="-1240733564">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
-          <entry key="java" value="2" />
+          <entry key="java" value="10" />
           <entry key="properties" value="1" />
           <entry key="so" value="1" />
-          <entry key="txt" value="6" />
+          <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="2" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="JAVA" value="10" />
+          <entry key="PLAIN_TEXT" value="8" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
@@ -81,17 +109,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+            <state relative-caret-position="350">
+              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/test/server/TestServer.java">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/yukiKeepAlive/memory/handle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="28">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/conf/ServerHandleRegister.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,22 +137,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final.jar!/io/netty/handler/codec/DelimiterBasedFrameDecoder.class">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/main/mvc/springStart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+            <state relative-caret-position="70">
+              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/test/handle/SimpleServerHandler.java">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/constant/MessageConst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="126">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/yukiKeepAlive/handle/KeepAliveHandle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/selector/handle/ProtocolSelector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/selector/param/Request.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/selector/param/Response.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -123,35 +199,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/test/readme.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/push/readme.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+            <state relative-caret-position="1470">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
             </state>
           </provider>
         </entry>
@@ -185,10 +234,13 @@
         <option value="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/tcp/readme.txt" />
         <option value="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/websocket/readme.txt" />
         <option value="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/test/readme.txt" />
-        <option value="$PROJECT_DIR$/core/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/test/server/TestServer.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/test/handle/SimpleServerHandler.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/conf/ServerHandleRegister.java" />
+        <option value="$PROJECT_DIR$/core/pom.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/yukiKeepAlive/handle/KeepAliveHandle.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/main/mvc/springStart.java" />
       </list>
     </option>
   </component>
@@ -198,11 +250,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="208" />
-    <option name="y" value="204" />
+    <option name="x" value="470" />
+    <option name="y" value="65" />
     <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="height" value="997" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -260,7 +318,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="push" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
@@ -270,7 +328,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
@@ -280,7 +338,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="init" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
@@ -290,7 +349,61 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imserver" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="msg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imserver" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imserver" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imserver" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="selector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imserver" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="selector" type="462c0819:PsiDirectoryNode" />
               <item name="handle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -301,8 +414,9 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="selector" type="462c0819:PsiDirectoryNode" />
+              <item name="param" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
@@ -312,7 +426,76 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="yukiKeepAlive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imserver" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="yukiKeepAlive" type="462c0819:PsiDirectoryNode" />
+              <item name="handle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imserver" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="yukiKeepAlive" type="462c0819:PsiDirectoryNode" />
+              <item name="memory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imserver" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="yukiMqtt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imserver" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="yukiTcp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imserver" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="yukiUdp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imserver" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="yukiWebsocket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
@@ -322,20 +505,21 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542102080843" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546332869027" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\YuKi_HOME\imserver\core\src\main\java\yuki\software\im\core" />
       <recent name="E:\YuKi_HOME\imserver\core\src\main\java\yuki\software\im\core\test" />
       <recent name="E:\YuKi_HOME\imserver\core\src\main\java\yuki\software\im\core\websocket" />
       <recent name="E:\YuKi_HOME\imserver\core\src\main\java\yuki\software\im\core\tcp" />
@@ -374,7 +558,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\YuKi\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -385,7 +569,16 @@
       <updated>1542024477743</updated>
       <workItem from="1542024480775" duration="1656000" />
       <workItem from="1542026197785" duration="9275000" />
-      <workItem from="1542100939342" duration="784000" />
+      <workItem from="1542100939342" duration="2086000" />
+      <workItem from="1542199956427" duration="740000" />
+      <workItem from="1543230249425" duration="953000" />
+      <workItem from="1543324159328" duration="856000" />
+      <workItem from="1543412258940" duration="616000" />
+      <workItem from="1543496823452" duration="1195000" />
+      <workItem from="1543604355116" duration="710000" />
+      <workItem from="1543795451981" duration="204000" />
+      <workItem from="1543842799279" duration="139000" />
+      <workItem from="1546332461375" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1542102063347</created>
@@ -405,12 +598,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11715000" />
+    <option name="totallyTimeSpent" value="18837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -418,6 +612,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
@@ -430,13 +625,17 @@
       <window_info anchor="bottom" id="Messages" order="9" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="SVN Repositories" order="13" visible="true" weight="0.32899022" />
+      <window_info anchor="right" id="JSF" />
+      <window_info anchor="right" id="CDI" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -470,13 +669,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/tcp/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/websocket/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -518,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/test/server/TestServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -552,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/test/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -576,7 +754,93 @@
     <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/push/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/tcp/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/selector/handle/ProtocolSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/yukiKeepAlive/memory/handle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/yukiKeepAlive/handle/KeepAliveHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/selector/param/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/selector/param/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/main/mvc/springStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/constant/MessageConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/conf/ServerHandleRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
