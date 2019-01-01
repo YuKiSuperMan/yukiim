@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fb50715-0c2e-4105-99ff-1ccac438e538" name="Default Changelist" comment="创建项目">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/conf/ServerHandleRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/main/init/ServerInital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/main/mvc/springStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/msg/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/constant/MessageConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/selector/handle/ProtocolSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/selector/param/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/selector/param/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/yukiKeepAlive/handle/KeepAliveHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/protocol/yukiKeepAlive/memory/handle.java" afterDir="false" />
+    <list default="true" id="6fb50715-0c2e-4105-99ff-1ccac438e538" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/tcp/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/test/handle/SimpleServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/test/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/test/server/TestServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/websocket/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,14 +73,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="436" />
-          <entry key="txt" value="53" />
+          <entry key="txt" value="60" />
           <entry key="xml" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="436" />
-          <entry key="PLAIN_TEXT" value="53" />
+          <entry key="PLAIN_TEXT" value="60" />
           <entry key="XML" value="64" />
         </counts>
       </usages-collector>
@@ -127,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/conf/ServerHandleRegister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="448">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -499,6 +481,16 @@
             </path>
             <path>
               <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imserver" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="push" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yukiim" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -512,7 +504,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546332869027" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546333021265" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -578,7 +570,7 @@
       <workItem from="1543604355116" duration="710000" />
       <workItem from="1543795451981" duration="204000" />
       <workItem from="1543842799279" duration="139000" />
-      <workItem from="1546332461375" duration="407000" />
+      <workItem from="1546332461375" duration="725000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1542102063347</created>
@@ -594,15 +586,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542102078288</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add All">
+      <created>1546332905565</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546332905565</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18837000" />
+    <option name="totallyTimeSpent" value="19155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -649,7 +647,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建项目" />
+    <MESSAGE value="Add All" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add All" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -836,8 +835,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/yuki/software/im/core/conf/ServerHandleRegister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="448">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
