@@ -12,7 +12,11 @@ import io.netty.channel.ChannelHandlerContext;
  */
 public class YuKiServerInitializer implements ChannelHandler {
 
+    private boolean isOpenFireWall;
 
+    public YuKiServerInitializer(boolean isOpenFireWall){
+        this.isOpenFireWall = isOpenFireWall;
+    }
 
     public void handlerAdded(ChannelHandlerContext channelHandlerContext) throws Exception {
         if(channelHandlerContext.channel().isRegistered()){

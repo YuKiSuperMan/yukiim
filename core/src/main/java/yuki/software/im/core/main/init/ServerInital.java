@@ -6,6 +6,7 @@ import io.netty.channel.ChannelOption;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
@@ -20,7 +21,12 @@ import org.springframework.stereotype.Component;
 @Component
 public class ServerInital implements ApplicationListener<ContextRefreshedEvent> {
 
-    private int port = 8065;
+    @Value("${server.port}")
+    private int port;
+    @Value("${server.host}")
+    private String host;
+    @Value("${server.isOpenFireWall}")
+    private boolean isOpenFireWall;
 
     public void run(){
         EventLoopGroup bossGroup=new NioEventLoopGroup(1);
@@ -30,7 +36,7 @@ public class ServerInital implements ApplicationListener<ContextRefreshedEvent> 
             b.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
                     .option(ChannelOption.SO_BACKLOG, 128)
-                    .childHandler(new YuKiServerInitializer());
+                    .childHandler(new YuKiServerInitializer(isOpenFireWall));
             ChannelFuture f=b.bind(port).sync();
             f.channel().closeFuture().sync();
         } catch (InterruptedException e) {
@@ -43,7 +49,9 @@ public class ServerInital implements ApplicationListener<ContextRefreshedEvent> 
 
 
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
-        System.out.println("start");
+        System.out.println(port);
+        System.out.println(host);
+        System.out.println(isOpenFireWall);
         this.run();
     }
 }

@@ -15,6 +15,7 @@
 		http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
 
     <context:component-scan base-package="yuki.software.im.core"/>
-
+    <context:property-placeholder location="classpath*:server.properties"/>
+    <context:property-placeholder location="classpath*:data.properties"/>
 
 </beans>
