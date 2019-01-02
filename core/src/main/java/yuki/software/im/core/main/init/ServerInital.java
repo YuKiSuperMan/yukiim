@@ -42,10 +42,12 @@ public class ServerInital implements ApplicationListener<ContextRefreshedEvent> 
                     .channel(NioServerSocketChannel.class)
                     .option(ChannelOption.SO_BACKLOG, 128)
                     .childHandler(new YuKiServerInitializer(isOpenFireWall));
-            ChannelFuture f=b.bind(port).sync();
+            logger.debug("绑定监听中...");
+            ChannelFuture f=b.bind(host,port).sync();
+            logger.debug("服务器启动成功...");
             f.channel().closeFuture().sync();
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            logger.error(e,e);
         } finally{
             bossGroup.shutdownGracefully();
             workerGroup.shutdownGracefully();

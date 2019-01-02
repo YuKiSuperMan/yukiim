@@ -2,6 +2,7 @@ package yuki.software.im.core.main.init;
 
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
+import org.apache.log4j.Logger;
 
 /**
  * @programN: yukiim
@@ -11,6 +12,8 @@ import io.netty.channel.ChannelHandlerContext;
  * @email: 1040929773@qq.com
  */
 public class YuKiServerInitializer implements ChannelHandler {
+
+    private static final Logger logger =  Logger.getLogger(ServerInital.class);
 
     private boolean isOpenFireWall;
 
