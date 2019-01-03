@@ -1,6 +1,5 @@
 package yuki.software.im.core.protocol.yukiKeepAlive.handle;
 
-import com.alibaba.fastjson.JSONObject;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.handler.timeout.IdleState;
@@ -8,8 +7,6 @@ import io.netty.handler.timeout.IdleStateEvent;
 import org.apache.log4j.Logger;
 import yuki.software.im.core.main.init.ServerInital;
 import yuki.software.im.core.protocol.constant.MessageConst;
-import yuki.software.im.core.protocol.selector.param.Request;
-import yuki.software.im.core.protocol.selector.param.Response;
 
 /**
  * @programN: yuki_im
